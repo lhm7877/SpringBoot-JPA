@@ -21,4 +21,4 @@
 - <img alt="도메인모델" src ="./docs/img/도메인모델.PNG" width ="800" height ="400"/>
 - <img alt="도메인모델1" src ="./docs/img/도메인모델1.PNG" width ="800" height ="400"/>
 - <img alt="테이블설계" src ="./docs/img/테이블설계.PNG" width ="800" height ="400"/>
-- <img alt="테이블설계1" src ="./docs/img/테이블설계1.PNG" width ="800" height ="400"/>
+- <img alt="회원테이블" src ="./docs/img/회원테이블.PNG" width ="400" height ="600"/>
