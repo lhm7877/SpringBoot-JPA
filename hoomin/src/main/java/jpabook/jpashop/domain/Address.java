@@ -11,6 +11,7 @@ public class Address {
 	private String street;
 	private String zipcode;
 
+	// 이거 lombok으로 추가하자
 	protected Address() {}
 
 	public Address(String city, String street, String zipcode) {
