@@ -10,12 +10,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import jpabook.jpashop.domain.Member;
+import jpabook.jpashop.repository.MemberRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MemberRepositoryTest {
 	@Autowired
-	MemberRepository memberRepository;
+	private MemberRepository memberRepository;
 
 	@Test
 	@Transactional
@@ -27,7 +28,7 @@ public class MemberRepositoryTest {
 
 		// when
 		final Long saveId = memberRepository.save(member);
-		final Member findMember = memberRepository.find(saveId);
+		final Member findMember = memberRepository.findOne(saveId);
 
 		//then
 		Assertions.assertThat(findMember.getId()).isEqualTo(member.getId());
