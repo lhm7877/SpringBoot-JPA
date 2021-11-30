@@ -90,3 +90,9 @@
 어플리케이션 아키텍처
 ------------------
 - <img alt="아키텍처" src ="./docs/img/아키텍처.PNG" width ="400" height ="800"/>
+
+
+추가 내용 정리
+------------------
+- 도메인 모델 패턴 : 엔티티가 비즈니스 로직을 가지고 객체 지향의 특성을 적극 활용하는 것 (http://martinfowler.com/eaaCatalog/domainModel.html)
+- 트랜잭션 스크립트 패턴 : 엔티티에는 비즈니스 로직이 거의 없고 서비스 계층에서 대부분의 비즈니스 로직을 처리하는 것 (http://martinfowler.com/eaaCatalog/transactionScript.html)
